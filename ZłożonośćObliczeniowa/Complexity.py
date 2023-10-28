@@ -1,6 +1,6 @@
 
 
-def fun1():  #O()
+def fun1():  #O(n)
     arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     sum = 0
     for i in range (0, len(arr)):
@@ -8,7 +8,7 @@ def fun1():  #O()
 
 
 
-def fun2():  #O()
+def fun2():  #O(m^2)
     arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     sum = 0
     for i in range (0, len(arr)):
@@ -17,7 +17,7 @@ def fun2():  #O()
 
 
 
-def fun3(): #O()
+def fun3(): #O(n)
     target = 5
     arr = [1, 2, 3, 4, 5, 6, 7]
     for i in range(len(arr)):
@@ -25,7 +25,7 @@ def fun3(): #O()
             return i
 
 
-def fun4(): #O()
+def fun4(): #O(logn)
     target = 2
     n = len(arr)
     arr = [1, 2, 3, 4, 5, 6, 7]
@@ -42,7 +42,7 @@ def fun4(): #O()
 
 
 
-def fun5(): #O()
+def fun5(): #O(1)
     a = 1
     b = 2
     if a > b:
@@ -52,14 +52,13 @@ def fun5(): #O()
     #można zapisać jako: return a > b
 
 
-def fun6(): #O()
+def fun6(): #O(n)
     arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    sum
     for i in range (0, len(arr), 3):
         print(arr[i])
 
 
-def fun7(): #O()
+def fun7(): #O(logn)
     for _ in range (10):
         target = 2
         n = len(arr)
